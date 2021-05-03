@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 50%;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(49, 61, 49);
+    z-index: 1;
+}
+
+.heading {
+    font-family: 'Montserrat';
+    font-size: 6rem;
+    line-height: 2;
+}
+
+.container-fluid {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    padding-top: 20px;
+    background-color: aqua;
+}
+
+.image {
+    width: 20%;
+    padding: 3%;
+}
+
+.play-button {
+    margin: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+
+@media (max-width: 426px){
+    .heading {
+        font-size: 2rem;
+    }
+
+    .container-fluid{
+        padding-top: 55%;
+    }
+    #btn-1 {
+        position: absolute;
+        top: 0;
+        margin-top: 35%;
+    }
+    p {
+        position: absolute;
+        bottom: 2px;
+        left: 20%;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 427px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
